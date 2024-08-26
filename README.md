@@ -2,15 +2,11 @@ RBAC Manager for Yii 2
 ======================
 GUI manager for RBAC (Role Base Access Control) Yii2. Easy to manage authorization of user :smile:.
 
-[![Latest Unstable Version](https://poser.pugx.org/mdmsoft/yii2-admin/v/unstable)](https://packagist.org/packages/mdmsoft/yii2-admin)
-[![Total Downloads](https://poser.pugx.org/mdmsoft/yii2-admin/downloads.png)](https://packagist.org/packages/mdmsoft/yii2-admin)
-[![Daily Downloads](https://poser.pugx.org/mdmsoft/yii2-admin/d/daily)](https://packagist.org/packages/mdmsoft/yii2-admin)
-[![License](https://poser.pugx.org/mdmsoft/yii2-admin/license)](https://packagist.org/packages/mdmsoft/yii2-admin)
-[![Reference Status](https://www.versioneye.com/php/mdmsoft:yii2-admin/reference_badge.svg)](https://www.versioneye.com/php/mdmsoft:yii2-admin/references)
-[![Build Status](https://img.shields.io/travis/mdmsoft/yii2-admin.svg)](http://travis-ci.org/mdmsoft/yii2-admin)
-[![Dependency Status](https://www.versioneye.com/php/mdmsoft:yii2-admin/dev-master/badge.png)](https://www.versioneye.com/php/mdmsoft:yii2-admin/dev-master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mdmsoft/yii2-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mdmsoft/yii2-admin/?branch=master)
-[![Code Climate](https://img.shields.io/codeclimate/github/mdmsoft/yii2-admin.svg)](https://codeclimate.com/github/mdmsoft/yii2-admin)
+[![Latest Stable Version](http://poser.pugx.org/mztest/yii2-admin/v)](https://packagist.org/packages/mztest/yii2-admin)
+[![Total Downloads](http://poser.pugx.org/mztest/yii2-admin/downloads)](https://packagist.org/packages/mztest/yii2-admin)
+[![Latest Unstable Version](http://poser.pugx.org/mztest/yii2-admin/v/unstable)](https://packagist.org/packages/mztest/yii2-admin)
+[![License](http://poser.pugx.org/mztest/yii2-admin/license)](https://packagist.org/packages/mztest/yii2-admin)
+[![PHP Version Require](http://poser.pugx.org/mztest/yii2-admin/require/php)](https://packagist.org/packages/mztest/yii2-admin)
 
 Documentation
 -------------

@@ -1,8 +1,8 @@
 <?php
 
 use yii\helpers\Html;
-use yii\grid\GridView;
 use yii\widgets\Pjax;
+use mdm\admin\components\GridView;
 
 /* @var $this  yii\web\View */
 /* @var $model mdm\admin\models\BizRule */

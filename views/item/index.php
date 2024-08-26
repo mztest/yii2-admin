@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use yii\grid\GridView;
+use mdm\admin\components\GridView;
 use mdm\admin\components\RouteRule;
 use mdm\admin\components\Configs;
 
