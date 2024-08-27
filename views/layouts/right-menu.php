@@ -16,7 +16,11 @@ $this->params['nav-items'] = $menus;
 <?php $this->beginContent($controller->module->mainLayout) ?>
 <div class="row">
     <div class="col-sm-9">
-        <?= $content ?>
+        <div class="card">
+            <div class="card-body">
+                <?= $content ?>
+            </div>
+        </div>
     </div>
     <div class="col-sm-3">
         <div id="manager-menu" class="list-group">

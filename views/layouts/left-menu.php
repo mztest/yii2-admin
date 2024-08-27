@@ -30,7 +30,11 @@ $this->params['nav-items'] = $menus;
         </div>
     </div>
     <div class="col-sm-9">
-        <?= $content ?>
+        <div class="card">
+            <div class="card-body">
+                <?= $content ?>
+            </div>
+        </div>
     </div>
 </div>
 <?php

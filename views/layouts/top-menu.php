@@ -14,7 +14,11 @@ $this->params['top-menu'] = true;
 <?php $this->beginContent($controller->module->mainLayout) ?>
 <div class="row">
     <div class="col-sm-12">
-        <?= $content ?>
+        <div class="card">
+            <div class="card-body">
+                <?= $content ?>
+            </div>
+        </div>
     </div>
 </div>
 <?php $this->endContent(); ?>
