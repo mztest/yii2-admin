@@ -17,15 +17,13 @@ $this->params['top-menu'] = true;
     <div class="col-sm-12">
         <div class="card">
             <div class="card-header">
-                <div class="card-header">
-                    <div class="dropdown float-right">
-                        <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">菜单 <b class="caret"></b></a>
-                        <?php
-                        echo Dropdown::widget([
-                            'items' => $this->params['nav-items'],
-                        ]);
-                        ?>
-                    </div>
+                <div class="dropdown float-right">
+                    <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">菜单 <b class="caret"></b></a>
+                    <?php
+                    echo Dropdown::widget([
+                        'items' => $this->params['nav-items'],
+                    ]);
+                    ?>
                 </div>
             </div>
             <div class="card-body">
