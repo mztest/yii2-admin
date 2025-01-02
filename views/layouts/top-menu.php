@@ -1,6 +1,7 @@
 <?php
 /* @var $this \yii\web\View */
 /* @var $content string */
+use yii\bootstrap5\Dropdown;
 
 $controller = $this->context;
 $menus = $controller->module->menus;
@@ -15,6 +16,18 @@ $this->params['top-menu'] = true;
 <div class="row">
     <div class="col-sm-12">
         <div class="card">
+            <div class="card-header">
+                <div class="card-header">
+                    <div class="dropdown float-right">
+                        <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">菜单 <b class="caret"></b></a>
+                        <?php
+                        echo Dropdown::widget([
+                            'items' => $this->params['nav-items'],
+                        ]);
+                        ?>
+                    </div>
+                </div>
+            </div>
             <div class="card-body">
                 <?= $content ?>
             </div>
